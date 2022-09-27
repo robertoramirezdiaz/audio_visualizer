@@ -9,4 +9,5 @@ wave_drawer.sv <br />
 fir.sv <br /> 
 DE1_SoC.sv <br /> 
 
-![img](https://github.com/robertoramirezdiaz/audio_visualizer/blob/main/wave_drawer_asmd.png?raw=true)
+### ASMD Chart - Overall Design
+![asmd](https://github.com/robertoramirezdiaz/audio_visualizer/blob/main/wave_drawer_asmd.png?raw=true)

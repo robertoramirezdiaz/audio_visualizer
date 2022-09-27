@@ -1,0 +1,89 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+U:/cse371/labs/lab6/lab6_part1/files {U:/cse371/labs/lab6/lab6_part1/files/fir.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:56:59 on May 27,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/cse371/labs/lab6/lab6_part1/files" U:/cse371/labs/lab6/lab6_part1/files/fir.sv 
+# -- Compiling module fir
+# -- Compiling module fir_testbench
+# 
+# Top level modules:
+# 	fir_testbench
+# End time: 13:56:59 on May 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/cse371/labs/lab6/lab6_part1/files {U:/cse371/labs/lab6/lab6_part1/files/wave_drawer_datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:56:59 on May 27,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/cse371/labs/lab6/lab6_part1/files" U:/cse371/labs/lab6/lab6_part1/files/wave_drawer_datapath.sv 
+# -- Compiling module wave_drawer_datapath
+# -- Compiling module wave_drawer_datapath_testbench
+# 
+# Top level modules:
+# 	wave_drawer_datapath_testbench
+# End time: 13:56:59 on May 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/cse371/labs/lab6/lab6_part1/files {U:/cse371/labs/lab6/lab6_part1/files/wave_drawer_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:57:00 on May 27,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/cse371/labs/lab6/lab6_part1/files" U:/cse371/labs/lab6/lab6_part1/files/wave_drawer_controller.sv 
+# -- Compiling module wave_drawer_controller
+# -- Compiling module wave_drawer_controller_testbench
+# 
+# Top level modules:
+# 	wave_drawer_controller_testbench
+# End time: 13:57:00 on May 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/cse371/labs/lab6/lab6_part1/files {U:/cse371/labs/lab6/lab6_part1/files/wave_drawer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:57:00 on May 27,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/cse371/labs/lab6/lab6_part1/files" U:/cse371/labs/lab6/lab6_part1/files/wave_drawer.sv 
+# -- Compiling module wave_drawer
+# -- Compiling module wave_drawer_testbench
+# 
+# Top level modules:
+# 	wave_drawer_testbench
+# End time: 13:57:00 on May 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.wave_drawer_testbench
+# vsim work.wave_drawer_testbench 
+# Start time: 13:58:24 on May 27,2021
+# Loading sv_std.std
+# Loading work.wave_drawer_testbench
+# Loading work.wave_drawer
+# Loading work.fir
+# Loading work.wave_drawer_datapath
+# Loading work.wave_drawer_controller
+add wave -position insertpoint  \
+sim:/wave_drawer_testbench/dut/clk \
+sim:/wave_drawer_testbench/dut/reset \
+sim:/wave_drawer_testbench/dut/start \
+sim:/wave_drawer_testbench/dut/enable \
+sim:/wave_drawer_testbench/dut/wave_signal \
+sim:/wave_drawer_testbench/dut/pen \
+sim:/wave_drawer_testbench/dut/x \
+sim:/wave_drawer_testbench/dut/y \
+sim:/wave_drawer_testbench/dut/done \
+sim:/wave_drawer_testbench/dut/invalidate \
+sim:/wave_drawer_testbench/dut/init \
+sim:/wave_drawer_testbench/dut/draw \
+sim:/wave_drawer_testbench/dut/idle \
+sim:/wave_drawer_testbench/dut/erase \
+sim:/wave_drawer_testbench/dut/signal
+run -all
+# ** Note: $stop    : U:/cse371/labs/lab6/lab6_part1/files/wave_drawer.sv(68)
+#    Time: 1152550 ps  Iteration: 1  Instance: /wave_drawer_testbench
+# Break in Module wave_drawer_testbench at U:/cse371/labs/lab6/lab6_part1/files/wave_drawer.sv line 68
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/cse371/labs/lab6/lab6_part1/simulation/modelsim/drawer_wave.do
+# End time: 14:02:11 on May 27,2021, Elapsed time: 0:03:47
+# Errors: 0, Warnings: 0

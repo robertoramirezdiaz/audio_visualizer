@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at wave_drawer_controller.sv(14): object "init" differs only in case from object "INIT" in the same scope File: U:/cse371/labs/lab6/lab6_part1/files/wave_drawer_controller.sv Line: 14
+Info (10281): Verilog HDL Declaration information at wave_drawer_controller.sv(14): object "draw" differs only in case from object "DRAW" in the same scope File: U:/cse371/labs/lab6/lab6_part1/files/wave_drawer_controller.sv Line: 14
+Info (10281): Verilog HDL Declaration information at wave_drawer_controller.sv(14): object "idle" differs only in case from object "IDLE" in the same scope File: U:/cse371/labs/lab6/lab6_part1/files/wave_drawer_controller.sv Line: 14
+Info (10281): Verilog HDL Declaration information at wave_drawer_controller.sv(15): object "erase" differs only in case from object "ERASE" in the same scope File: U:/cse371/labs/lab6/lab6_part1/files/wave_drawer_controller.sv Line: 15

@@ -3,8 +3,8 @@
 
  ### Main files
  
-wave_drawer_datapath.sv
-wave_drawer_controller.sv
-wave_drawer.sv
-fir.sv
-DE1_SoC.sv
+wave_drawer_datapath.sv <br /> 
+wave_drawer_controller.sv <br /> 
+wave_drawer.sv <br /> 
+fir.sv <br /> 
+DE1_SoC.sv <br /> 
